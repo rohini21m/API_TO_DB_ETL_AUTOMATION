@@ -86,6 +86,10 @@ except Exception as e:
 
 df.info() 
 df.describe()  
+df.info()  -- check the dataframe 
+
+# validate data has been injested into postgres table 
+select * from public."IBM_stock_weekly_prices"  
+#Since we have given name as case sensitive "IBM_stock_weekly_prices"
 
 
-df.info()
